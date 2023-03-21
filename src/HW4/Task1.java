@@ -42,8 +42,8 @@ int[] array2 = {9, 2, 6, 4, 5, 12, 7, 8, 6};
         int arr = array2[0];
 
 
-        for (int i = 0; i < array2.length; i++) {
-            if (arr < array2[i]) {
+        for(int i = 0; i < array2.length; i++){
+            if (arr < array2[i]){
                 arr = array2[i];
             }
         }
@@ -70,7 +70,6 @@ int[] array3 = {9, 2, 6, 4, 5, 12, 7, 8, 6};
             }
         }
         System.out.println(arr3);
-
         System.out.println("////////////////////////////////");
 
         /*
@@ -90,9 +89,8 @@ int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9};
             num4 += array4[i];
         }
 
-        num4 = num4 / array4.length;
+        num4 = num4 / 9;
         System.out.println(num4);
-
         System.out.println("///////////////////////////////");
 
         /*
@@ -115,7 +113,6 @@ int[][] array = {{1, 2, 3, 4, 5}, {6, 7, 8, 9}, {-1, -2, -3, -4}, {-5, -6}};
         }
 
         System.out.println(num5);
-
         System.out.println("//////////////////////////");
 
         /*
