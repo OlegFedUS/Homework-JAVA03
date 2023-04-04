@@ -8,9 +8,9 @@ public class Director extends BaseManager {
 
     public int getSalaryDirector() {
         if (getNumberOfSubordinates() > 0) {
-            return (int) (getSalaryWorker() * (getNumberOfSubordinates() / 100.0 * 9));
+            return (int) (getBaseSalary() * (getNumberOfSubordinates() / 100.0 * 9));
         } else {
-            return getSalaryWorker();
+            return getBaseSalary();
         }
 
     }
