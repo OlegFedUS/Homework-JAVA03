@@ -6,11 +6,12 @@ public class Manager extends BaseManager{
         super(name, baseSalary, numberOfSubordinates);
     }
 
-    public int getSalaryManager() {
+    @Override
+    public int getSalary() {
         if (getNumberOfSubordinates() > 0) {
-            return (int) (getSalaryWorker() * (getNumberOfSubordinates() / 100.0 * 3));
+            return (int) (getBaseSalary() * (getNumberOfSubordinates() / 100.0 * 3));
         } else {
-            return getSalaryWorker();
+            return super.getSalary();
         }
 
     }

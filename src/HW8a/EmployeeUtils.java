@@ -1,6 +1,6 @@
 package HW8a;
 
-public class Company {
+public class EmployeeUtils {
 
     public int findName(String name, Employee[] arr){
         for (int i = 0; i < arr.length; i++) {
@@ -20,7 +20,7 @@ public class Company {
         return -1;
     }
 
-    public int totalSalary(Employee[] arr){
+    public static int totalSalary(Worker[] arr){
         int result = 0;
         for (int i = 0; i < arr.length; i++){
             result += arr[i].getBaseSalary();
