@@ -8,8 +8,8 @@ public class Main {
 
 
         /*
-        Manager manager = new Manager("Vachtang Dudaev", 14000, 3000);
-        System.out.println(" Manager Name: " + manager.getName() + "\n " + "Total Salary: " + manager.getSalaryManager());
+        BaseManager manager = new BaseManager("Vachtang Dudaev", 14000, 3000);
+        System.out.println(" BaseManager Name: " + manager.getName() + "\n " + "Total Salary: " + manager.getSalaryManager());
 
         System.out.println();
 

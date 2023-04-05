@@ -11,7 +11,6 @@ public class Employee {
 
     public Employee(String name){
         this();
-        System.out.println("Huy");
         this.name = name;
     }
 
