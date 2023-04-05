@@ -5,12 +5,7 @@ public class Employee {
     private String name;
     private int baseSalary;
 
-    public Employee(){
-        System.out.println("Employee Information: ");
-    }
-
     public Employee(String name, int baseSalary) {
-        this();
         this.name = name;
         this.baseSalary = baseSalary;
     }
